@@ -10,18 +10,21 @@ body {
    max-width: 1440px;
    height: 100vh;
    background-color: white;
-   display: flex;        
+   flex-wrap: nowrap;
+ 
 }
 
 main {
    display: flex;
+   flex-wrap: nowrap;
+   justify-content: center;
    margin: 20% 12%;
    align-items: center;
    padding: 20px 20px;        
    border-radius: 20px;
-   text-align: left;
-   
 }
+
+
 main > div> h1 {
    color: hsl(0, 0%, 95%);        
    font-family: 'Big Shoulders Display', cursive;
@@ -45,33 +48,35 @@ main > .sedan, .SUVs, .Luxury {
 
 .sedan {
    background-color: hsl(31, 77%, 52%);
-   height: 55vh;
+   height: 500px;
    border-radius: 15px 0 0 15px;
-   width: 35vh;
+   width: 300px;
+   
 }
 .SUVs {
    background-color: hsl(184, 100%, 22%);
-   height: 55vh;
-   width: 35vh;
+   height: 500px;
+   width: 300px;
+
 }
 .Luxury {
    background-color: hsl(179, 100%, 13%);
-   height: 55vh;
+   height: 500px;
    border-radius: 0 15px 15px 0;
-   width: 35vh;
+   width: 300px;
 }
 
 button {
    background-color: hsl(0, 0%, 95%);
-   height: 50px;
-   width: 180px;
+   height: 10%;
+   width: 60%;
    border-radius: 20px;
    font-size: 20px;
    font-family: 'Lexend Deca', sans-serif;
    border: none;
    cursor: pointer;
-   position: fixed;
    top: 630px;
+   display: block;
 }    
 
 button:hover {
@@ -150,15 +155,16 @@ button:active {
 
     button {
         background-color: hsl(0, 0%, 95%);
-        height: 50px;
-        width: 180px;
+        height: 5vh;
+        width: 20vh;
         border-radius: 20px;
         font-size: 20px;
         font-family: 'Lexend Deca', sans-serif;
         border: none;
         cursor: pointer;
-        position: fixed;
         top: 630px;
+        display: inline-block;
+        position: fixed;
     }    
 
     button:hover {
