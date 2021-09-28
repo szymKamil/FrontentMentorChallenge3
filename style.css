@@ -4,19 +4,19 @@
 }
 html {
     background: url("https://source.unsplash.com/0ZPSX_mQ3xI/1600x900") no-repeat center center/cover;
+    height: 120vh;
 }
 
 body {
    max-width: 1440px;
    height: 100vh;
    background-color: white; 
-   
+   margin: 0;
 }
 
 main {
    display: flex;
-   margin: 20% 12%;
-   padding: 20px 20px;        
+   padding: 15vh 20vh;        
    border-radius: 20px;
    flex-direction: row;
    flex-flow: nowrap;
@@ -24,7 +24,6 @@ main {
 
 main > div {
     position: relative;
-
 }
 
 main > div> h1 {
@@ -37,10 +36,9 @@ main > div> h1 {
 main > div>  p {
    color: hsla(0, 0%, 100%, 0.75);
    font-family: 'Lexend Deca', sans-serif;
-   font-size: 1.4vw;
    margin: 0 20px 0px 0;
    line-height: 32px;
-
+   font-size:calc(1px + 1.1vw);
 }
 
 main > .sedan, .SUVs, .Luxury {
@@ -70,16 +68,17 @@ main > .sedan, .SUVs, .Luxury {
 
 button {
    background-color: hsl(0, 0%, 95%);
-   height: 7vh;
-   width: 25vh;
-   border-radius: 20px;
-   font-size: 1.6vw;
+   height: 3em;
+   width: 11em;
+   border-radius: 2em;
+   font-size: 1.4vw;
    font-family: 'Lexend Deca', sans-serif;
    border: none;
    cursor: pointer;
    top: 630px;
    margin-top: 10vh;
    margin-bottom: 5vh;
+  
 
 }    
 
@@ -94,10 +93,6 @@ button:active {
    transform: translateY(3px);
    transition: 0s;
  }
-
-
-
-
 
 
 
