@@ -71,15 +71,13 @@ button {
    height: 3em;
    width: 11em;
    border-radius: 2em;
-   font-size: 1.4vw;
+   font-size: 20px;
    font-family: 'Lexend Deca', sans-serif;
    border: none;
    cursor: pointer;
    top: 630px;
    margin-top: 10vh;
    margin-bottom: 5vh;
-  
-
 }    
 
 button:hover {
@@ -98,35 +96,42 @@ button:active {
 
 
 @media screen and (max-width: 375px) {
-       main {
+      html {
+         background-image: none;
+      }
+
+      main {
         display: block;
-        margin: 10% 3%;
-        height: 250vh;
-    }
-    main > div> h1 {
+        margin: 0 20px 20px 0;
+        padding: 24px;
+        
+      }
+       main > div> h1 {
         font-size: 46px;
         padding-top: 40px;
-    }
+       }
 
-    main > div>  p {
+      main > div>  p {
         font-size: 17px;
         line-height: 28px;
 
-    }
+      }
 
-    .sedan {
+      .sedan {
         height: 70vh;
         border-radius: 15px 15px 0 0;
         width: 42vh;
-    }
-    .SUVs {
+       }
+
+      .SUVs {
         height: 70vh;
         width: 42vh;
-    }
-    .Luxury {
+      }
+
+      .Luxury {
         height: 70vh;
         border-radius: 0 0 15px 15px;
         width: 42vh;
-    }
-
+      }
+      
 }
